@@ -1,0 +1,516 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+/* body{
+    margin: 0px;
+    padding: 0px;
+} */
+
+
+#navdiv{
+    /* border: 1px solid black; */
+    height: 100vh;
+    background-image: url(../assets/showcase.jpeg);
+    background-repeat: no-repeat;
+
+    background-size: 100% 100%;
+  
+    
+  
+    /* top: -10%; */
+    /* zoom: 1; */
+    
+    /* position: sticky;
+    margin-top: 0px; */
+    /* margin-bottom: 0px; */
+
+}
+
+#navigation{
+    /* border:1px solid black; */
+    /* display: flex; */
+    width: 100%;
+    height: 40px;
+    display: flex;
+    position:fixed;
+    top: 0%;
+    /* z-index: -6; */
+    /* height: 30px; */
+    background-color: rgb(51,51,51);
+    flex-direction: row;
+    justify-content: flex-start;
+    
+    
+    
+
+    
+}
+
+.navchild{
+    /* border: 1px solid black; */
+    height: 37px;
+    width: 100px;
+    text-align: center;
+    line-height: 50px;
+    text-decoration: none;
+    color: #eee;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 15px;
+    position: relative;
+    
+    
+    /* padding: 5px ; */
+}
+.navchild:hover{
+    /* border: 1px solid grey; */
+    height: 46px;
+    background-color: rgb(62, 61, 61);
+}
+
+/* .hover-border{
+    border: 1px solid rgb(213, 11, 11);
+    height: 40px;
+    /* position: absolute; */
+/* } */
+
+/* #nav1:hover{
+    border: 1px solid red;
+    height: 40px;
+
+} */
+
+/* #nav1child{
+    border: 1px solid red;
+    height: 40px;
+    width: 100px;
+    position: absolute;
+    line-height: 30px;
+} */
+/* #img1{
+    border: 1px solid rgb(228, 7, 7);
+    height: 100vh;
+    background-image: url(../assets/showcase.jpeg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: absolute; 
+    zoom: 1;
+} */
+
+
+/* --------------------------mytunes------------------------------------- */
+#mytunes{
+    /* border :1px solid rgb(92, 11, 241); */
+    height: 100vh;
+    display: flex;
+    color: white;
+    flex-direction: column;
+    /* align-items: first baseline; */
+    align-items: center;
+    /* flex-shrink: 4; */
+    
+    /* justify-content:space-evenly; */
+
+}
+
+.mytune-texts{
+    /* border: 1px solid red; */
+    height:100px ;
+    width: 960px;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+/* #text1{
+    transition: 3s;
+    transition-timing-function: ease-in-out;
+} */
+#text1{
+    height: 120px;
+    margin-top: 200px;
+    font-size: 30px;
+    
+    
+    /* transform: skew(10deg); */
+    
+}
+#text2{
+    font-size: 15px;
+    height: 70px;
+    
+}
+#text3{
+    font-size: 20px;
+    width: 1200px;
+    line-height: 35px
+    
+}
+
+/* ---------------------------music part----------------------------- */
+
+#music{
+    /* border: 1px solid black; */
+    height: 170vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #252529;
+    color: #fff;
+    text-align: center;
+
+
+}
+
+.music-items{
+    /* border: 1px solid red; */
+    height: 200px;
+    width: 900px;
+    font-family:sans-serif;
+}
+
+#music-item1{
+    height: 100px;
+    font-size: 40px;
+    font-weight:bold;
+    margin-top: 50px;
+    
+
+}
+#music-item2{
+    height: 80px;
+    font-size: 30px;
+    font-weight: bold;
+    
+}
+#music-item3{
+    height: 100px;
+    width: 1150px;
+    font-size: 20px;
+    line-height: 35px;
+    
+}
+#music-item4{
+    height: 100px;
+    /* background-color: rgb(185,4,21); */
+    line-height: 100px;
+   
+    
+}
+#item4-button:hover{
+    background-color: #d3071b;
+}
+
+#item4-button{
+    /* color: red; */
+    border: none;
+    background-color: rgb(185,4,21);
+    
+    color: #fff;
+    height: 55px;
+    width: 175px;
+    font-size: 15px;
+    cursor: pointer;
+
+}
+#music-item5{
+    height: 55px;
+    line-height: 50px;
+    
+}
+#music-item6{
+    height: 720px;
+    width: 1200px;
+}
+
+#item6-img{
+    height: 713px;
+    width: 1180px;
+}
+
+/* -------------------------------------vedio part------------------------ */
+
+
+#vedio{
+    height: 187vh;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    background-color: rgb(244,244,244);
+
+
+}
+
+.vedio-items{
+    /* border: 1px solid red; */
+    height: 200px;
+    width: 900px;
+    font-family: sans-serif;
+    text-align: center;
+    color: rgb(51,51,51);
+
+}
+
+#vedio-item1{
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 80px;
+    height: 80px;
+
+}
+
+#vedio-item2{
+    height: 160px;
+    width: 1232.5px;
+    font-size: 21px;
+    line-height: 35px;
+
+    
+}
+
+#vedio-item3{
+    height: 62px;
+    
+    
+}
+#vedio-button:hover{
+    background-color: #143f85;
+}
+
+
+#vedio-button{
+    height: 60px;
+    width: 110px;
+    font-size: 15px;
+    background-color: rgb(16,48,99);
+    color: #fff;
+    cursor: pointer;
+}
+
+#vedio-item4{
+    height: 950px;
+    width: 1200px;
+    
+}
+#vedio-img{
+    height: 940px;
+    width: 1180px;
+}
+
+/* ---------------------------------------space part ---------------------- */
+
+
+#space{
+    /* border: 1px solid black; */
+    height: 75.5vh;
+    display: flex;
+    background-image: url(../assets/section-bg.jpeg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.space-items{
+    /* border: 1px solid red; */
+    height: 200px;
+    width: 900px;
+    color: #fff;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+#space-item1{
+    height: 75px;
+    font-size: 30px;
+    font-weight: bold;
+    
+    margin-top: 200px;
+
+}
+
+#space-item2{
+    height: 100px;
+    width: 1180px;
+    font-size: 20px;
+    line-height: 30px;
+    
+    
+}
+
+
+
+
+/* -------------------------------------gift cards--------------------------- */
+
+#gift-cards{
+    /* border: 1px solid black; */
+    height: 63vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: rgb(244,244,244);
+}
+
+.gift-items{
+    /* border: 1px solid red; */
+    height: 390px;
+    width: 600px;
+    margin-top: 30px;
+}
+
+/* #gift-item1{
+
+} */
+
+#gift-img{
+    height: 390px;
+    width: 570px;
+}
+
+#gift-item2{
+    font-family: sans-serif;
+    
+}
+
+/* ----------------------------------gift-item2 childrens------------------------ */
+
+.gift-item2-children{
+    /* border: 1px solid blue; */
+    height: 90px;
+    width: 600px;
+}
+
+#gift-head{
+    height: 70px;
+    font-size: 27px;
+    font-weight: bold;
+    line-height: 70px;
+    
+}
+#gift-para1{
+    height: 120px;
+    line-height: 25px;
+}
+
+#gift-para2{
+    height: 30px;
+}
+
+/* #gift-line{
+    border: 1px solid red;
+    height: 20px;
+    line-height: 10px;
+} */
+
+#gift-dropdown{
+    margin: 10px;
+    
+}
+/* #drop{
+    font-size: large;
+    font-weight: bold;
+
+} */
+#dropdown{
+    text-decoration: none;
+    color: rgb(37,48,99);
+}
+
+
+/* ----------------------------------lists-------------------------- */
+
+#lists{
+    /* border: 1px solid black; */
+    height: 35vh;
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    gap: 70px;
+    /* justify-content: space-between; */
+    /* justify-items: left; */
+
+    background-color: rgb(37,37,41);
+    /* margin-top: 30px; */
+}
+
+.list-blocks{
+    /* border: 1px solid red; */
+    height: 180px;
+    width: 230px;
+    margin-top: 40px;
+}
+
+.list-heads{
+    /* border: 1px solid blue; */
+    height: 50px;
+    width: 250px;
+    font-family: sans-serif;
+    color: #fff;
+    line-height: 50px;
+    /* margin-left: 35px; */
+    
+}
+
+/* .list-items{
+    border: 1px solid green;
+    height: 100px;
+    width: 200px;
+    margin-top: 15px;
+    color: #fff;
+    list-style-type: none;
+
+} */
+
+.list-orders{
+    /* border: 1px solid yellow; */
+    height: 100px;
+    width: 250px;
+    
+    margin-top: 15px;
+    
+    
+    line-height: 23px;
+    
+} 
+a{
+    text-decoration: none;
+    color: lightgray;
+    /* color: #fff; */
+}
+hr{
+    border: 1px solid grey;
+    
+    /* width: 220px; */
+}
+
+/* #paralist{
+    border: 1px solid green;
+    height: 170px;
+    width: 250px;
+    margin-top: 15px;
+    position:absolute;
+} */
+
+
+
+
+
+
+
+/* -----------------------copy rights--------------------------------------- */
+
+#copy-rights{
+    /* border: 1px solid black; */
+    height: 57px;
+    background-color: rgb(51,51,51);
+    text-align: center;
+    color: #fff;
+    line-height: 60px;
+    font-family: sans-serif;
+    /* position: fixed; */
+    /* margin-bottom: 0px; */
+}
